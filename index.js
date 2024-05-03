@@ -40,12 +40,12 @@ import express from "express";
 // // the TechX Store, and the Database.
 // //
 
-dotenv.config();
+// dotenv.config();
 
 const app = express();
-const _token_secret_key = config.token_secret_key;
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+// const _token_secret_key = config.token_secret_key;
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = dirname(__filename);
 
 app.listen(80, () => {
   console.log("Server is running on port 3001");
